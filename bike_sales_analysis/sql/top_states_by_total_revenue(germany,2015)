@@ -1,0 +1,7 @@
+"country","state","total_revenue"
+"Germany","Saarland","429900"
+"Germany","Hessen","406919"
+"Germany","Nordrhein-Westfalen","395284"
+"Germany","Hamburg","366550"
+"Germany","Bayern","277940"
+"Germany","Brandenburg","48520"

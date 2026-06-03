@@ -1,0 +1,5 @@
+"age_group","total_revenue","avg_revenue"
+"Adults (35-64)","8997327","808.17"
+"Young Adults (25-34)","7746024","889.02"
+"Youth (<25)","3155218","742.06"
+"Seniors (64+)","47134","365.38"
