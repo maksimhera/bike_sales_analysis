@@ -1,0 +1,6 @@
+"country","state","total_revenue"
+"Australia","New South Wales","2333370"
+"Australia","Queensland","1391146"
+"Australia","Victoria","1361738"
+"Australia","South Australia","413533"
+"Australia","Tasmania","187793"
