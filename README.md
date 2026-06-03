@@ -20,11 +20,40 @@ Key columns: Date, Country, State, Product, Sub-Category, Customer Age, Gender, 
 
 
 Project Structure
-bike-sales-analysis/
-├── data/               # Raw CSV file
-├── sql/                # SQL query files (cleaning + analysis)
-├── notebook/           # Jupyter Notebook (EDA + visualisations)
-├── visuals/            # Dashboard screenshots
+bike_sales_analysis/
+│
+├── data/
+│   └── bike_sales.csv
+│
+├── powerbi/
+│   └── bike_sales_data.pbix
+│
+├── python/
+│   └── bike_sales_data_python_functions.py
+│
+├── sql/
+│   ├── top10_products_by_revenue_2015.sql
+│   ├── total_revenue_and_profit_by_country_2015.sql
+│   ├── total_revenue_for_every_month_2015.sql
+│   ├── total_revenue_by_age_group_2015.sql
+│   ├── total_revenue_for_genders_2015.sql
+│   ├── avg_order_quantity_for_sub_category_2015.sql
+│   ├── england_total_revenue_2015.sql
+│   ├── margin_for_every_sub_category_2015.sql
+│   ├── ranking_products_by_total_revenue_for_sub_categories_2015.sql
+│   ├── top_states_by_total_revenue_australia_2015.sql
+│   ├── top_states_by_total_revenue_canada_2015.sql
+│   ├── top_states_by_total_revenue_germany_2015.sql
+│   ├── top10_states_by_total_revenue_france_2015.sql
+│   └── top10_states_by_total_revenue_usa_2015.sql
+│
+├── visuals_python/
+│   ├── correlation_order_quantity_profit_revenue.png
+│   ├── monthly_revenue.png
+│   ├── revenue_by_product_category.png
+│   ├── revenue_for_country.png
+│   └── top10_products_by_revenue.png
+│
 └── README.md
 
 Data Cleaning (SQL + Python)
